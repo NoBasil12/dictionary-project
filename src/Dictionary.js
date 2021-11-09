@@ -24,9 +24,15 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <form className="Search-box" onSubmit={search}>
-        <input type="search" onChange={handleKeywordChange} />
-      </form>
+      <section>
+        <h1> What word do you want to look up? </h1>
+        <form className="Search-box" onSubmit={search}>
+          <input type="search" onChange={handleKeywordChange} />
+        </form>
+        <div className="hint">
+          suggested words: words: sunset, wine, yoga...
+        </div>
+      </section>
       <Results results={results} />
     </div>
   );
