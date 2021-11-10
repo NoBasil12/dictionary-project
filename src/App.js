@@ -14,7 +14,17 @@ export default function App() {
         </main>
         <footer className="App-footer">
           {" "}
-          <small> Coded by Francesca</small>
+          <small>
+            {" "}
+            <a
+              href="https://github.com/NoBasil12/dictionary-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Open-sourse code
+            </a>
+            , by Francesca Carai{" "}
+          </small>
         </footer>
       </div>
     </div>
